@@ -1,0 +1,90 @@
+
+<html>
+    <head>
+        <title>AFYA HOME</title>
+        
+    </head>
+    <body>
+        <header class="header">
+        <div class="logo"><a href=""  routerLink="/home" routerLinkActive="active">A<span>FY</span>A</a></div>
+        <div class="navbar">
+            <span><a href="" routerLink="/home" routerLinkActive="active">HOME</a></span>
+            <a href="" routerLink="/home" routerLinkActive="active">WORKOUTS</a>
+            <a href="" routerLink="/home" routerLinkActive="active">TRAINING</a>
+            <a href="" routerLink="/home" routerLinkActive="active">ABOUT US</a>
+           
+        </div>
+        <div class="pro"> <a href="" routerLink="/home" routerLinkActive="active">MY PROFILE</a><a href="" routerLink="" routerLinkActive="active">LOGIN</a></div>
+        <div class="pro"></div>
+        </header>
+    
+    
+        <!-- image slider-->
+    
+        <div class="slider-wrapper">
+    
+            <div class="slider">
+                    <figure>
+                        <a href="" routerLink="/home" routerLinkActive="active"><img src="../../../assets/images/swi1.jpg"></a>
+                        <a href="" routerLink="/home" routerLinkActive="active"><img src="../../../assets/images/swi2.jpeg"></a>
+                        <a href="" routerLink="/home" routerLinkActive="active"><img src="../../../assets/images/swi3.jpg"></a>
+                        <a href="" routerLink="/home" routerLinkActive="active"><img src="../../../assets/images/swi3.jpg"></a>
+                    </figure>
+            </div>
+        </div>
+        <!-- feauters !-->
+        <h2 class="heading">WORK<span>OUT</span> PLANS</h2>
+        <div class="grid-container">
+            <div class="im"><div class="image1"><img src="../../../assets/images/fea2.jpeg"></div></div>
+            <div class="de">
+                <div class="desc1"><span>SIX PACK</span><br><p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Similique, Atque.</p>
+                <a href="" routerLink="/home" routerLinkActive="active">Take Me</a>
+            </div>
+            </div>  
+        </div>
+        <div class="grid-container2">
+            <div class="de"><div class="desc1"><span>ROCK HARD ABS</span><br><p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Similique, Atque.</p>
+                <a href="" routerLink="/home" routerLinkActive="active">Take Me</a>
+            </div>
+        </div>
+            
+            <div class="im"><div class="image1"><img src="../../../assets/images/fea1.jpg"></div></div>
+        </div>
+        <div class="grid-container">
+            <div class="im"><div class="image1"><img src="../../../assets/images/fea3.jpeg"></div></div>
+            <div class="de">
+                <div class="desc1"><span>REDUCE BELLY FAT</span><br><p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Similique, Atque.</p>
+                <a href="" routerLink="/home" routerLinkActive="active">Take Me</a>
+            </div>
+            </div>   
+        </div>
+            
+        <!-- Benfits -->
+        <!-- <h1 class="heading">A<span>FY</span>A<br><span>Viirtual </span>Fitness<span> Trainer</span></h1>
+        <div class="benfits">
+            <img src="../../../assets/images/backg.jpg">
+            <div class="text"><h1></h1></div>
+            <div class="text"><p><span>BENIFITS</span><br><br><br><span>Cardiovascular Disease</span><br><br>Heart disease and stroke are two of the leading causes of death in the United States. Following the recommendations and getting at least 150 minutes a week of moderate-intensity aerobic activity can put you at a lower risk for these diseases. You can reduce your risk even further with more physical activity. Regular physical activity can also lower your blood pressure and improve your cholesterol levels.<br><span>Diabetes and Metabolic Syndrome</span><br><br>Regular physical activity can reduce your risk of developing type 2 diabetes and metabolic syndrome. Metabolic syndrome is some combination of too much fat around the waist, high blood pressure, low High Density Lipoproteins (HDL) cholesterol, high triglycerides, or high blood sugar. People start to see benefits at levels of physical activity below the recommended 150 minutes a week. Additional amounts of physical activity seem to lower risk even more.<br><span>Increase Your Chances of Living Longer</span><br><br>Science shows that physical activity can reduce your risk of dying early from leading causes of death, like heart disease and some cancers. This is remarkable in two ways:<br>Only a few lifestyle choices have as large an impact on your health as physical activity. People who are physically active for about 150 minutes a week have a 33% lower risk of all-cause mortality than those who are physically inactive.<br>You don’t have to do high amounts of activity or vigorous-intensity activity to reduce your risk of premature death. Benefits start to accumulate with any amount of moderate- or vigorous-intensity physical activity.</p></div>
+        </div> -->
+    
+
+        <form [formGroup]="contactForm" (ngSubmit)="send()">
+            <div class="contact">
+                <div class="a"><h2>CONTACT</h2></div>
+                <div class="input1">
+                    <label for="userid">NAME</label>
+                    <input type="text" name="userid" id="userid" formControlName="name">
+                </div>
+                <div class="input1">
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email" formControlName="email">   
+                </div>
+                <div class="ta">
+                    <label for="email">message</label>
+                    <input type="textArea" name="ta" id="ta" formControlName="Message">
+                </div>
+                <div class="a"><input type="submit" value="Send" ></div>
+            </div>
+        </form>
+    </body>
+    </html>
